@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+:focus {
+    outline: medium none;
+}
+.faram {font-size:14px}
+.faram h2{
+    font-family: Kalimati;
+}
+.form_hint, .required_notification {
+    font-size: 11px;
+}
+.faram ul {
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 750px;
+}
+.faram li {
+    padding: 12px;
+    position: relative;
+}
+.faram h2 {
+    display: inline;
+    margin: 0;
+}
+.required_notification {
+    color: #D45252;
+    display: inline;
+    float: right;
+    margin: 5px 0 0;
+}
+.faram input {
+    height: 20px;
+    padding: 4px;
+}
+.faram textarea {
+    padding: 8px;
+}
+.faram input, .faram textarea {
+    -moz-transition: padding 0.25s ease 0s;
+    border: 1px solid #AAAAAA;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 3px #CCCCCC, 0 10px 15px #EEEEEE inset;
+/*    padding-right: 30px;*/
+}
+.faram input:focus, .faram textarea:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #28921F;
+    box-shadow: 0 0 5px #5CD053;
+/*    padding-right: 70px;*/
+}
+.faram input:required, .faram textarea:required {
+    background: url("../images/red_asterisk.png") no-repeat scroll 98% center #FFFFFF;
+}
+.faram input:required:valid, .faram textarea:required:valid {
+    background: url("../images/valid.png") no-repeat scroll 98% center #FFFFFF;
+    border-color: #28921F;
+    box-shadow: 0 0 5px #5CD053;
+}
+.faram input:focus:invalid, .faram textarea:focus:invalid {
+    background: url("../images/invalid.png") no-repeat scroll 98% center #FFFFFF;
+    border-color: #B03535;
+    box-shadow: 0 0 5px #D45252;
+}
+
+.form_hint_green {
+    background: none repeat scroll 0 0 #5CD053;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    display: none;
+    margin-left: 8px;
+    padding: 1px 6px;
+    position: absolute;
+    z-index: 999;
+}
+.form_hint_green:before {
+    color: #5CD053;
+    content: "◀";
+    left: -6px;
+    position: absolute;
+    top: 1px;
+}
+.faram input:focus + .form_hint_green {
+    display: inline;
+}
+
+.form_hint {
+    background: none repeat scroll 0 0 #D45252;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    display: none;
+    margin-left: 8px;
+    padding: 1px 6px;
+    position: absolute;
+    z-index: 999;
+}
+.form_hint:before {
+    color: #D45252;
+    content: "◀";
+    left: -6px;
+    position: absolute;
+    top: 1px;
+}
+.faram input:focus + .form_hint {
+    display: inline;
+}
+.faram input:required:valid + .form_hint {
+    background: none repeat scroll 0 0 #28921F;
+}
+.faram input:required:valid + .form_hint:before {
+    color: #28921F;
+}
+button.submit {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: -moz-linear-gradient(center top , #68B12F, #50911E) repeat scroll 0 0 transparent;
+    border-color: #509111 #509111 #5B992B;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 0 #9FD574 inset;
+    color: white;
+    font-weight: normal;
+    padding: 6px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+    height:30px;
+    font-size:12px;
+}
+button.submit:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
+button.submit:active {
+    border: 1px solid #20911E;
+    box-shadow: 0 0 10px 5px #356B0B inset;
+}
+.left {text-align:left}
+.center {text-align:center}
+.right {text-align:right; padding-right:5px;}
+.faram table {width:100%}
+.faram table, .faram td, .faram th {padding:7px;border:0px solid #000}
+.faram th {font-weight:bold}
+.w400 {width:400px}
+.w60 {width:60%}
+.w20 {width:20%}
+
+
+.faram span{color:#FFF; font-size:11px; font-weight:normal; padding:5px; cursor:pointer;}
+
+.login-container { 
+	background: #FFF;
+	width:300px; 
+	margin:120px auto; 
+	padding:40px;
+	line-height:30px;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0; 
+	-webkit-box-shadow: 1px 1px 1px 1px #111;
+	-moz-box-shadow: 1px 1px 1px 1px #111;
+	box-shadow: 1px 1px 1px 1px #111;
+}
+
+
+.calendar {
+	background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    display: none;
+    padding: 1px 6px;
+    position: absolute;
+    z-index: 999;
+    border: 1px solid #000;
+	width:300px;
+	height:200px;
+	
+}
+.calendar:before {
+    color: #5CD053;
+    content: "◀";
+    left: -6px;
+    position: absolute;
+    top: 1px;
+}
+.faram input:focus + .calendar {
+    display: inline;
+    float:right;
+    margin-left: -300px;
+    margin-top: 25px;
+}

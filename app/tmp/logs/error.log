@@ -1,0 +1,293 @@
+2011-11-12 12:59:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\citizens_controller.php:640) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-12 13:10:26 Warning: Warning (2): pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:10:27 Warning: Warning (2): pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:10:37 Warning: Warning (2): pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:11:43 Warning: Warning (2): pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:11:43 Warning: Warning (2): pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:12:06 Warning: Warning (2): pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:12:53 Warning: Warning (2): pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:13:11 Warning: Warning (2): pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:14:08 Warning: Warning (2): pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:14:14 Warning: Warning (2): pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:14:23 Warning: Warning (2): pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:15:43 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;citizen&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:15:43 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  relation "citizen" does not exist</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-12 13:16:00 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: ...ame, last_name from citizens where citizenship_no = 1 or ssn...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts. in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:16:00 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  operator does not exist: character varying = integer
+LINE 1: ...ame, last_name from citizens where citizenship_no = 1 or ssn...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-12 13:17:19 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column &quot;स&quot; does not exist
+LINE 1: ...m citizens where citizenship_no = 'स' or ssn_no = स or first...
+                                                             ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-12 13:17:19 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  column "स" does not exist
+LINE 1: ...m citizens where citizenship_no = 'स' or ssn_no = स or first...
+                                                             ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-13 08:41:16 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  insert or update on table &quot;day_books&quot; violates foreign key constraint &quot;day_books_transacted_by_fkey&quot;
+DETAIL:  Key (transacted_by)=(1) is not present in table &quot;citizens&quot;. in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-13 08:41:16 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  insert or update on table "day_books" violates foreign key constraint "day_books_transacted_by_fkey"
+DETAIL:  Key (transacted_by)=(1) is not present in table "citizens".</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-15 17:38:29 Warning: Warning (2): require(install.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\xampp\htdocs\vdc\app\controllers\app_controller.php, line 2]
+2011-11-15 18:50:01 Warning: Warning (2): require(config/install.php) [<a href='http://php.net/function.require'>function.require</a>]: failed to open stream: No such file or directory in [C:\xampp\htdocs\vdc\app\controllers\app_controller.php, line 2]
+2011-11-15 18:51:45 Warning: Warning (2): Illegal offset type in isset or empty in [C:\xampp\htdocs\vdc\cake\libs\inflector.php, line 447]
+2011-11-15 18:51:45 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [C:\xampp\htdocs\vdc\cake\libs\inflector.php, line 464]
+2011-11-15 18:51:45 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [C:\xampp\htdocs\vdc\cake\libs\inflector.php, line 469]
+2011-11-15 18:51:45 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [C:\xampp\htdocs\vdc\cake\libs\inflector.php, line 475]
+2011-11-15 18:51:45 Warning: Warning (2): Illegal offset type in [C:\xampp\htdocs\vdc\cake\libs\inflector.php, line 480]
+2011-11-15 18:51:45 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-15 18:51:46 Warning: Warning (2): Illegal offset type in isset or empty in [C:\xampp\htdocs\vdc\cake\libs\inflector.php, line 447]
+2011-11-15 18:51:46 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [C:\xampp\htdocs\vdc\cake\libs\inflector.php, line 464]
+2011-11-15 18:51:46 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [C:\xampp\htdocs\vdc\cake\libs\inflector.php, line 469]
+2011-11-15 18:51:46 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [C:\xampp\htdocs\vdc\cake\libs\inflector.php, line 475]
+2011-11-15 18:51:46 Warning: Warning (2): Illegal offset type in [C:\xampp\htdocs\vdc\cake\libs\inflector.php, line 480]
+2011-11-15 18:51:46 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-15 18:59:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:20) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-15 19:01:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:21) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 08:02:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:21) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 08:04:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\config\install.php:3) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:29:00 Warning: Warning (2): AppController::require(config/install.php) [<a href='http://php.net/function.AppController-require'>function.AppController-require</a>]: failed to open stream: No such file or directory in [C:\xampp\htdocs\vdc\app\controllers\app_controller.php, line 16]
+2011-11-16 10:29:18 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:22) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:29:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:22) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:29:48 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:22) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:29:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:22) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:29:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:22) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:29:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:22) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:29:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:22) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:29:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:22) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:29:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:22) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:29:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:22) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:30:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:23) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:30:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:23) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:30:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:23) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:30:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:23) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:30:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:23) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:30:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:23) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:30:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:23) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:30:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:18) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:35:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:18) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:37:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:17) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:37:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:17) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:37:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\app_controller.php:17) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:38:37 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\config\bootstrap.php:1) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:38:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\config\bootstrap.php:1) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:39:07 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\config\bootstrap.php:1) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 10:49:29 Warning: Warning (2): fopen(C:\xampp\htdocs\vdc\app\config/install.php) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in [C:\xampp\htdocs\vdc\app\controllers\installations_controller.php, line 46]
+2011-11-16 10:59:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\installations_controller.php:47) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 12:23:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/debugger.php:673) in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/controller/controller.php, line 742]
+2011-11-16 12:25:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/debugger.php:673) in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/controller/controller.php, line 742]
+2011-11-16 12:27:35 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/debugger.php:673) in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/controller/controller.php, line 742]
+2011-11-16 12:27:36 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/debugger.php:673) in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/controller/controller.php, line 742]
+2011-11-16 12:27:46 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/debugger.php:673) in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/controller/controller.php, line 742]
+2011-11-16 12:27:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/debugger.php:673) in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/controller/controller.php, line 742]
+2011-11-16 12:32:03 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/debugger.php:673) in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/controller/controller.php, line 742]
+2011-11-16 12:32:24 Warning: Warning (2): fopen(../config/bootstrap.php) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/app/controllers/installations_controller.php, line 63]
+2011-11-16 12:32:24 Warning: Warning (2): fwrite() expects parameter 1 to be resource, boolean given in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/app/controllers/installations_controller.php, line 65]
+2011-11-16 12:32:24 Warning: Warning (2): fclose() expects parameter 1 to be resource, boolean given in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/app/controllers/installations_controller.php, line 66]
+2011-11-16 12:32:24 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/debugger.php:673) in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/controller/controller.php, line 742]
+2011-11-16 12:33:40 Warning: Warning (2): fopen(/Applications/XAMPP/xamppfiles/htdocs/vdc_new/appconfig/bootstrap.php) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/app/controllers/installations_controller.php, line 63]
+2011-11-16 12:33:40 Warning: Warning (2): fwrite() expects parameter 1 to be resource, boolean given in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/app/controllers/installations_controller.php, line 65]
+2011-11-16 12:33:40 Warning: Warning (2): fclose() expects parameter 1 to be resource, boolean given in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/app/controllers/installations_controller.php, line 66]
+2011-11-16 12:33:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/debugger.php:673) in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/controller/controller.php, line 742]
+2011-11-16 12:34:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/vdc_new/app/controllers/accounts_controller.php:14) in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/cake/libs/controller/controller.php, line 742]
+2011-11-16 16:01:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 16:12:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\accounts_controller.php:15) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 16:16:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\accounts_controller.php:15) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 16:16:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\accounts_controller.php:15) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 16:20:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\accounts_controller.php:15) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-16 16:22:36 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  duplicate key value violates unique constraint &quot;m_accounts_user_acount_code_key&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-16 16:22:36 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  duplicate key value violates unique constraint "m_accounts_user_acount_code_key"</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-25 04:35:48 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 167]
+2011-11-25 04:35:48 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 212]
+2011-11-25 04:35:48 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 249]
+2011-11-25 04:37:39 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 167]
+2011-11-25 04:37:39 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 212]
+2011-11-25 04:37:39 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 249]
+2011-11-25 04:40:16 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 167]
+2011-11-25 04:40:16 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 212]
+2011-11-25 04:40:16 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 250]
+2011-11-25 04:41:15 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 149]
+2011-11-25 04:41:15 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 194]
+2011-11-25 04:41:15 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 232]
+2011-11-25 08:26:35 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 149]
+2011-11-25 08:26:35 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 194]
+2011-11-25 08:26:35 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\districts\index.ctp, line 232]
+2011-11-26 16:12:47 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;v_accounts_account_id_seq&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-26 16:12:47 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  relation "v_accounts_account_id_seq" does not exist</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-26 16:12:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-26 16:21:56 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  duplicate key value violates unique constraint &quot;accounts_user_acount_code_key&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-26 16:21:56 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  duplicate key value violates unique constraint "accounts_user_acount_code_key"</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-29 17:49:51 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;accounts&quot; does not exist in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-29 17:49:51 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  relation "accounts" does not exist</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-29 17:49:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-11-29 18:04:13 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;BUDGET_RELEASES&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-29 18:04:13 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  invalid input syntax for integer: "BUDGET_RELEASES"</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-29 18:04:13 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\accounts\allocate_annual_budget.ctp, line 46]
+2011-11-29 18:04:14 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;BUDGET_RELEASES&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-29 18:04:14 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  invalid input syntax for integer: "BUDGET_RELEASES"</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-29 18:04:14 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\accounts\allocate_annual_budget.ctp, line 46]
+2011-11-29 18:12:57 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\controllers\accounts_controller.php, line 74]
+2011-11-29 18:12:57 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\accounts\allocate_annual_budget.ctp, line 52]
+2011-11-29 18:14:34 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\controllers\accounts_controller.php, line 74]
+2011-11-29 18:14:34 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\accounts\allocate_annual_budget.ctp, line 52]
+2011-11-30 02:03:26 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for type timestamp: &quot;Array 00:00:00&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-30 02:03:26 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  invalid input syntax for type timestamp: "Array 00:00:00"</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-30 02:05:24 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  null value in column &quot;voucher_type_id&quot; violates not-null constraint in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-30 02:05:24 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  null value in column "voucher_type_id" violates not-null constraint</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-30 15:44:14 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;BUDGET_RELEASES&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-11-30 15:44:14 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  invalid input syntax for integer: "BUDGET_RELEASES"</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-11-30 15:44:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-03 06:37:07 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\accounts\monthly_account.ctp, line 55]
+2011-12-03 06:42:27 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\accounts\monthly_account.ctp, line 38]
+2011-12-08 17:11:01 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column DayBook.ssn_no does not exist
+LINE 1: ...S &quot;DayBook&quot; LEFT JOIN &quot;citizens&quot; AS &quot;Citizen&quot; ON (&quot;DayBook&quot;....
+                                                             ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-08 17:11:01 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  column DayBook.ssn_no does not exist
+LINE 1: ...S "DayBook" LEFT JOIN "citizens" AS "Citizen" ON ("DayBook"....
+                                                             ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-08 17:12:33 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column DayBook.ssn_no does not exist
+LINE 1: ...S &quot;DayBook&quot; LEFT JOIN &quot;citizens&quot; AS &quot;Citizen&quot; ON (&quot;DayBook&quot;....
+                                                             ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-08 17:12:33 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  column DayBook.ssn_no does not exist
+LINE 1: ...S "DayBook" LEFT JOIN "citizens" AS "Citizen" ON ("DayBook"....
+                                                             ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-08 17:12:34 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\controllers\day_books_controller.php, line 18]
+2011-12-08 17:12:34 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\day_books\index.ctp, line 80]
+2011-12-08 17:12:34 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column DayBook.ssn_no does not exist
+LINE 1: ...S &quot;DayBook&quot; LEFT JOIN &quot;citizens&quot; AS &quot;Citizen&quot; ON (&quot;DayBook&quot;....
+                                                             ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-08 17:12:34 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  column DayBook.ssn_no does not exist
+LINE 1: ...S "DayBook" LEFT JOIN "citizens" AS "Citizen" ON ("DayBook"....
+                                                             ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-08 17:12:34 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\controllers\day_books_controller.php, line 18]
+2011-12-08 17:12:34 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\day_books\index.ctp, line 80]
+2011-12-09 19:51:55 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  null value in column &quot;day_book_id&quot; violates not-null constraint in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-09 19:51:55 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  null value in column "day_book_id" violates not-null constraint</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-09 19:58:38 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  insert or update on table &quot;day_books&quot; violates foreign key constraint &quot;day_books_received_by_fkey&quot;
+DETAIL:  Key (received_from)=(10) is not present in table &quot;personal_accounts&quot;. in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-09 19:58:38 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  insert or update on table "day_books" violates foreign key constraint "day_books_received_by_fkey"
+DETAIL:  Key (received_from)=(10) is not present in table "personal_accounts".</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-09 20:01:46 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  insert or update on table &quot;day_books&quot; violates foreign key constraint &quot;day_books_voucher_id_fkey&quot;
+DETAIL:  Key (voucher_id)=(0) is not present in table &quot;vouchers&quot;. in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-09 20:01:46 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  insert or update on table "day_books" violates foreign key constraint "day_books_voucher_id_fkey"
+DETAIL:  Key (voucher_id)=(0) is not present in table "vouchers".</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-10 04:41:22 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\controllers\day_books_controller.php, line 19]
+2011-12-10 04:47:12 Warning: Warning (2): Illegal offset type in isset or empty in [C:\xampp\htdocs\vdc\app\controllers\accounts_controller.php, line 269]
+2011-12-10 06:49:29 Warning: Warning (2): Illegal offset type in isset or empty in [C:\xampp\htdocs\vdc\app\controllers\accounts_controller.php, line 269]
+2011-12-10 06:49:52 Warning: Warning (2): Illegal offset type in isset or empty in [C:\xampp\htdocs\vdc\app\controllers\accounts_controller.php, line 270]
+2011-12-10 07:36:09 Warning: Warning (2): Illegal offset type in [C:\xampp\htdocs\vdc\app\controllers\day_books_controller.php, line 32]
+2011-12-10 10:04:36 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;अल्या.&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-10 10:04:36 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  invalid input syntax for integer: "अल्या."</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-10 10:04:37 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;अल्या.&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-10 10:04:37 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  invalid input syntax for integer: "अल्या."</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-10 18:30:47 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column ContactPerson.contact_person does not exist
+LINE 1: ..._id&quot;) LEFT JOIN &quot;citizens&quot; AS &quot;ContactPerson&quot; ON (&quot;ContactPe...
+                                                             ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-10 18:30:47 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  column ContactPerson.contact_person does not exist
+LINE 1: ..._id") LEFT JOIN "citizens" AS "ContactPerson" ON ("ContactPe...
+                                                             ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-10 18:30:47 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\personal_accounts\index.ctp, line 32]
+2011-12-10 18:30:47 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\personal_accounts\index.ctp, line 72]
+2011-12-10 18:30:48 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column ContactPerson.contact_person does not exist
+LINE 1: ..._id&quot;) LEFT JOIN &quot;citizens&quot; AS &quot;ContactPerson&quot; ON (&quot;ContactPe...
+                                                             ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-10 18:30:48 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  column ContactPerson.contact_person does not exist
+LINE 1: ..._id") LEFT JOIN "citizens" AS "ContactPerson" ON ("ContactPe...
+                                                             ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-10 18:30:48 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\personal_accounts\index.ctp, line 32]
+2011-12-10 18:30:48 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\personal_accounts\index.ctp, line 72]
+2011-12-10 18:35:40 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column ContactPerson.contact_person does not exist
+LINE 1: ..._id&quot;) LEFT JOIN &quot;citizens&quot; AS &quot;ContactPerson&quot; ON (&quot;ContactPe...
+                                                             ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-10 18:35:40 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  column ContactPerson.contact_person does not exist
+LINE 1: ..._id") LEFT JOIN "citizens" AS "ContactPerson" ON ("ContactPe...
+                                                             ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-10 18:35:40 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\personal_accounts\index.ctp, line 32]
+2011-12-10 18:35:40 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\views\personal_accounts\index.ctp, line 72]
+2011-12-11 04:47:59 Warning: Warning (2): require_once(/Applications/XAMPP/xamppfiles/htdocs/vdc_new/app/config/install.php) [<a href='http://php.net/function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in [C:\xampp\htdocs\vdc\app\config\bootstrap.php, line 302]
+2011-12-11 07:11:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\config\install.php:1) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-14 18:41:38 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\plugins\authake\views\authake\index.ctp, line 30]
+2011-12-17 03:09:21 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for type date: &quot;२०४२-०९-२३&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 03:09:21 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  invalid input syntax for type date: "२०४२-०९-२३"</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 03:16:34 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for type date: &quot;1898&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 03:16:34 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  invalid input syntax for type date: "1898"</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 03:47:38 Warning: Warning (2): Wrong parameter count for explode() in [C:\xampp\htdocs\vdc\app\controllers\personal_accounts_controller.php, line 117]
+2011-12-17 03:47:38 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\vdc\app\controllers\personal_accounts_controller.php, line 117]
+2011-12-17 07:25:08 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column reference &quot;ssn_no&quot; is ambiguous
+LINE 1: ...ontact_person&quot; = &quot;ContactPerson&quot;.&quot;ssn_no&quot;)  WHERE &quot;ssn_no&quot; =...
+                                                             ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 07:25:08 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  column reference "ssn_no" is ambiguous
+LINE 1: ...ontact_person" = "ContactPerson"."ssn_no")  WHERE "ssn_no" =...
+                                                             ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 07:25:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-17 07:47:49 Warning: Warning (2): Missing argument 1 for PersonalAccountsController::addUsername() in [C:\xampp\htdocs\vdc\app\controllers\personal_accounts_controller.php, line 181]
+2011-12-17 07:47:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-17 07:50:48 Warning: Warning (2): Missing argument 1 for PersonalAccountsController::addUsername() in [C:\xampp\htdocs\vdc\app\controllers\personal_accounts_controller.php, line 181]
+2011-12-17 07:50:48 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-17 08:01:07 Warning: Warning (2): Missing argument 1 for PersonalAccountsController::addUsername() in [C:\xampp\htdocs\vdc\app\controllers\personal_accounts_controller.php, line 181]
+2011-12-17 08:01:07 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-17 08:02:55 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column &quot;username&quot; does not exist
+LINE 1: ...AS &quot;count&quot; FROM &quot;authake_users&quot; AS &quot;User&quot;   WHERE &quot;username&quot;...
+                                                             ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 08:02:55 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  column "username" does not exist
+LINE 1: ...AS "count" FROM "authake_users" AS "User"   WHERE "username"...
+                                                             ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 08:02:55 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  null value in column &quot;login&quot; violates not-null constraint in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 08:02:55 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  null value in column "login" violates not-null constraint</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 08:05:19 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;%E0%A5%A7&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 08:05:19 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  invalid input syntax for integer: "%E0%A5%A7"</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 08:05:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-17 08:10:53 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  duplicate key value violates unique constraint &quot;authake_users_password_key&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 08:10:53 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  duplicate key value violates unique constraint "authake_users_password_key"</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 08:10:53 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 08:10:53 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  syntax error at or near ","
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 08:11:23 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;%E0%A5%A8&quot; in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 08:11:23 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  invalid input syntax for integer: "%E0%A5%A8"</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 08:11:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-17 08:12:17 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 08:12:17 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  syntax error at or near ","
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 08:26:24 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\personal_accounts_controller.php:96) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-17 08:29:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\app\controllers\personal_accounts_controller.php:96) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-17 08:30:31 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 08:30:31 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  syntax error at or near ","
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 08:30:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-17 10:30:03 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 10:30:03 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  syntax error at or near ","
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 10:30:03 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-17 10:30:14 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 10:30:14 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  syntax error at or near ","
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 10:30:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-17 10:30:55 Warning: Warning (2): pg_query() [<a href='http://php.net/function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^ in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo\dbo_postgres.php, line 167]
+2011-12-17 10:30:55 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> ERROR:  syntax error at or near ","
+LINE 1: insert into authake_groups_users values(  , 1)
+                                                  ^</span> in [C:\xampp\htdocs\vdc\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-12-17 10:30:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-20 16:31:28 Warning: Warning (512): Method AuthakeHelper::getSsnNo does not exist in [C:\xampp\htdocs\vdc\cake\libs\view\helper.php, line 154]
+2011-12-24 06:52:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\vdc\cake\libs\debugger.php:673) in [C:\xampp\htdocs\vdc\cake\libs\controller\controller.php, line 742]
+2011-12-24 07:15:02 Warning: Warning (2): require_once(c:\xampp\htdocs\vdc\app\config/install.php) [<a href='http://php.net/function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/app/config/bootstrap.php, line 303]
+2011-12-24 07:16:31 Warning: Warning (2): require_once(c:\xampp\htdocs\vdc\app\config/install.php) [<a href='http://php.net/function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in [/Applications/XAMPP/xamppfiles/htdocs/vdc_new/app/config/bootstrap.php, line 303]
+2011-12-26 05:54:30 Warning: Warning (2): require_once(/Applications/XAMPP/xamppfiles/htdocs/vdc_new/app/config/install.php) [<a href='http://php.net/function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in [C:\xampp\htdocs\vdc\app\config\bootstrap.php, line 303]
